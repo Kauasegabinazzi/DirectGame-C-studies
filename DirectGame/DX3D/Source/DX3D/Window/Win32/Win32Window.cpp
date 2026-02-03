@@ -41,4 +41,5 @@ dx3d::Window::Window(): Base()
 
 dx3d::Window::~Window()
 {
+	DestroyWindow(static_cast<HWND>(m_handle));
 }

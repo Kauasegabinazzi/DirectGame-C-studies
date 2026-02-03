@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="DirectGame/DirectGame.vcxproj" />
+  <Project Path="DirectGame/DirectGame.vcxproj" Id="d4ce7e6b-7328-4236-8a76-64df6aa757ed" />
 </Solution>
