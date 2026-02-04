@@ -3,10 +3,9 @@
 
 dx3d::Game::Game()
 {
-	m_display = new Window();
+	m_display = std::make_unique<Window>();
 }
 
 dx3d::Game::~Game()
 {
-	delete m_display;
 }
